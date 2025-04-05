@@ -25,7 +25,7 @@ Download and install Python from [python.org](https://www.python.org/downloads/)
 ### Step 2: Install Required Dependencies
 ```bash
 python -m pip install --upgrade pip
-pip install moviepy Pillow
+pip install moviepy
 ```
 
 
@@ -34,6 +34,11 @@ Place your audio file (e.g., audio.wav) and image file (e.g., thumbnail.png) in 
 
 ### Step 4: Running the Script
 Run the Python script to generate the video:
+```bash
+git clone https://github.com/yourusername/audio-to-video-converter.git
+cd audio-to-video
+python audio_to_video.py
+```
 
 This will create an output_video.mp4 file in the same directory, combining the audio with the image.
 pip install moviepy
